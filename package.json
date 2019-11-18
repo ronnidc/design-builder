@@ -1,6 +1,6 @@
 {
   "name": "design-builder",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "This is a tool for building __frontend design__. It can be used in an existing larger solution or as a standalone [static site generator](https://www.staticgen.com/) deployed to [Netlify](https://www.netlify.com/) e.g.",
   "main": ".eleventy.js",
   "scripts": {
@@ -12,8 +12,8 @@
     "url": "git+https://github.com/ronnidc/design-builder.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Ronni Chidekel",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ronnidc/design-builder/issues"
   },
