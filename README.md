@@ -1,14 +1,14 @@
-# design-builder
+# Design-builder
 
-This is a tool for building frontend design.
+This is a tool for building __frontend design__. It can be used in an existing solution or as a standalone [static site generator](https://www.staticgen.com/) hosted on [Netlify](https://www.netlify.com/) e.g.
 
 ## Dependencies
 
 The builder is powered by [Eleventy: github.com/11ty](https://github.com/11ty/eleventy)
 
-# Instalaton
+# Setup
 
-## Clone this reporsitory to your existing solution
+## Clone this repository to your existing solution
 
 ````bash
 npx degit ronnidc/design-builder design
@@ -16,4 +16,6 @@ cd design
 npm i
 ````
 
-(You may change the '__design__' directory to something that fits your solution better)
+-	By using `degit` instead of `git clone` you get a clean copy without a *.git* history.
+
+	Feel free to name the '__design__' directory something else that fits your solution better.
