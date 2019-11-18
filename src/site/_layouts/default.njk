@@ -21,6 +21,7 @@ title: Design Builder v0.1
         box-sizing: border-box;
         position: relative;
         max-width: 1000px;
+        min-width: 320px;
         padding: 2em 2em;
         margin: 0 auto;
         font-family: sans-serif;
@@ -28,12 +29,28 @@ title: Design Builder v0.1
         background: #fff;
         height: 100%;
       }
+      footer {
+        text-align: center;
+      }
+      footer a{
+        color: inherit;
+        font-size: 80%;
+      }
     </style>
   </head>
   <body>
 
     <div class="container">
-      {{ content | safe }}
+      <header>
+        <h1>{{ title }}</h1>
+      </header>
+      <main>
+        {{ content | safe }}
+      </main>
+      <footer>
+        <hr />
+        <a href="https://github.com/ronnidc/design-builder">design-builder</a>
+      </footer>
     </div>
 
   </body>
