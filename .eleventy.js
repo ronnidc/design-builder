@@ -1,11 +1,13 @@
 module.exports = function(eleventyConfig) {
 
+  // Layout aliases can make templates more portable
+  // eleventyConfig.addLayoutAlias('default', 'layouts/default.njk');
+
 	return {
     templateFormats: [
       "md",
       "njk",
-      "html",
-      "liquid"
+      "html"
     ],
 
     // If your site lives in a different subdirectory, change this.
@@ -17,15 +19,16 @@ module.exports = function(eleventyConfig) {
 
     // pathPrefix: "/",
 
-    markdownTemplateEngine: "liquid",
-    htmlTemplateEngine: "liquid",
-    dataTemplateEngine: "liquid",
+    markdownTemplateEngine: "njk",
+    htmlTemplateEngine: "njk",
+    dataTemplateEngine: "njk",
 
     // These are all optional, defaults are shown:
     dir: {
       input: "src/site/pages",
-      includes: "src/site/_includes",
-      data: "src/site/_data",
+      includes: "../_includes",
+      layouts: "../_layouts",
+      data: "../_data",
       output: "export"
     }
   };
