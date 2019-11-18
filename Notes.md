@@ -4,6 +4,8 @@
 
 __[>> Eleventy Documentation <<](https://www.11ty.io/docs/languages/nunjucks/)__
 
+[Eleventy-base-blog code on Github](https://github.com/11ty/eleventy-base-blog/blob/master/.eleventy.js)
+
 ## ToDo
 
 - ### Make a navigation component
