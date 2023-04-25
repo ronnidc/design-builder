@@ -1,5 +1,7 @@
 # Design-builder
 
+*Archived April 25. 2023. Outdated*
+
 This is a tool for building __frontend design__. It can be used in an existing larger solution or as a standalone [static site generator](https://www.staticgen.com/) deployed to [Netlify](https://www.netlify.com/) e.g.
 
 ## Dependencies
